@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "user1",
+      "password": "password1",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "username": "user2",
+      "password": "password2",
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "role": "user"
+    },
+    {
+      "id": "3",
+      "username": "user3",
+      "password": "password3",
+      "name": "Bob Johnson",
+      "email": "bob@example.com",
+      "role": "user"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "3e5f",
+      "date": "2025-04-03T19:44:22.435Z",
+      "timeSlot": {
+        "start": 10,
+        "end": 12
+      },
+      "userId": "1",
+      "userName": "John Doe"
+    },
+    {
+      "id": "be6c",
+      "date": "2025-04-03T19:45:09.685Z",
+      "timeSlot": {
+        "start": 10,
+        "end": 12
+      },
+      "userId": "2",
+      "userName": "Jane Smith"
+    },
+    {
+      "id": "4fba",
+      "date": "2025-03-31T18:10:56.706Z",
+      "timeSlot": {
+        "start": 10,
+        "end": 12
+      },
+      "userId": "1",
+      "userName": "John Doe"
+    }
+  ]
+}
